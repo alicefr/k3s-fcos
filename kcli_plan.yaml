@@ -1,0 +1,6 @@
+name: k3s
+fcos:
+  name: k3s
+  image: cache/builds/latest/x86_64/fedora-coreos-43.20251214.3.0-qemu.x86_64.qcow2
+  net: default
+  memory: 4096

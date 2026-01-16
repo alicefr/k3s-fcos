@@ -1,0 +1,8 @@
+ARG BASE
+FROM  $BASE
+
+ENV INSTALL_K3S_BIN_DIR /usr/bin
+ENV INSTALL_K3S_SKIP_ENABLE true
+ENV INSTALL_K3S_VERSION v1.35.0+k3s1
+
+RUN curl -sfL https://get.k3s.io | sh -s -
