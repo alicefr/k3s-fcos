@@ -2,3 +2,4 @@
 fcos.ociarchive
 src
 cache
+k3s-kubeconfig.yaml

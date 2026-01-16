@@ -2,7 +2,7 @@ variant: fcos
 version: 1.6.0
 passwd:
   users:
-    - name: core
+    - name: root
       ssh_authorized_keys:
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCWvljBdqqjHvIOIKftFbDTJ4DvWa8cbnZlK9HHrn7lhXwvmCY0FkvL9dtD0azgJkwYRMGyOAqDMTk6S1oV04ZjAlbQgmtoldiAtkIJez6uZV3AdBzm0UnOD8O0sIhtRHfCAGxiAcT5oANfCD+YpJ7c4LPAetX/OaU40cLSVU1dA6YNAB5hZoqJ5h54W6gf6NEK5zkHclDsSO9oeyxkeirNAeL83GdLmX76PAAtQkr4H5K6S9ZnGd5at7HxRdZ5KuGElmwYwMxsWBOxZFl8glQ4UgAIX7TWopUYxZNNmYtTl1GwPJA+UyYfu60ryX6YOic3H/s9GUADqq/7ahKvnWa6iRa0+xkdy+GrrJMQOmBoCHzUGECDeu+N1JEcuHGnMy+bDSsGG6mz5dQT+VqdVcqosnGesobeuGOswAA2yW9rc/I4s7i9zGRzOD5u+xE/topYstqXZ3PYUgjzTi1V3pTwgBf5SSJYaxIap1s7nupZ86CjU3hvCdjcEQ69b3zYmKSjsGJ6+deL+C17CYYBqqUllYce2a/LoAwB4d1wGQ8vu8gwhyaI+tg2z0PZDGae21rF2ahYueOOd8W4nuqPuxtOUE80g3S3iYGKkctLNM/iWB/HFRyykg/Go/vllL1tapqfW2d5YGihXMO/iy4vtXaxA8pGKcnrcX8dvb8ufQt59w== core
 systemd:
