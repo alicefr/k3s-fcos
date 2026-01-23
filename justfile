@@ -40,3 +40,14 @@ qemu:
     cosa init --force https://github.com/coreos/fedora-coreos-config
     cosa import oci-archive:/srv/{{archive}}
     cosa osbuild qemu
+
+azure:
+    #!/usr/bin/env bash
+    {{cosa_function}}
+    rm -rf cache
+    mkdir -p cache
+    cp {{archive}} cache/{{archive}}
+    cd cache
+    cosa init --force https://github.com/coreos/fedora-coreos-config
+    cosa import oci-archive:/srv/{{archive}}
+    cosa osbuild azure
